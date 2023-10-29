@@ -1,0 +1,1 @@
+const i=JSON.parse('{"key":"v-42a246c1","path":"/course/list/3-bi-li-bi-li-fen-si.html","title":"[持续更新 2023/10/29]金山文档自动获取哔哩哔哩粉丝","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"course/list/3-bi-li-bi-li-fen-si.md"}');export{i as data};
