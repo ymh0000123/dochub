@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-649a3bf5","path":"/course/list/1-FRP-comparison.html","title":"FRP对比","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"course/list/1-FRP-comparison.md"}');export{t as data};
