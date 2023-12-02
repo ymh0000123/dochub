@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as o}from"./app-ee83b2ac.js";const n={},s=e("h1",{id:"联系我",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#联系我","aria-hidden":"true"},"#"),o(" 联系我")],-1),r=e("p",null,"邮箱：ymh0000123@163.com",-1),_=[s,r];function d(h,i){return a(),c("div",null,_)}const m=t(n,[["render",d],["__file","Contact-me.html.vue"]]);export{m as default};
