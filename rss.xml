@@ -6,18 +6,16 @@
     <link>https://ymh0000123.github.io/dochub/</link>
     <description>dochub</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 28 Dec 2023 12:54:25 GMT</pubDate>
-    <lastBuildDate>Thu, 28 Dec 2023 12:54:25 GMT</lastBuildDate>
+    <pubDate>Sat, 30 Dec 2023 13:22:00 GMT</pubDate>
+    <lastBuildDate>Sat, 30 Dec 2023 13:22:00 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <item>
-      <title>联系我</title>
-      <link>https://ymh0000123.github.io/dochub/Contact-me.html</link>
-      <guid>https://ymh0000123.github.io/dochub/Contact-me.html</guid>
-      <source url="https://ymh0000123.github.io/dochub/rss.xml">联系我</source>
-      <description>邮箱：ymh0000123@outlook.com</description>
-      <content:encoded><![CDATA[<h1> 联系我</h1>
-<p>邮箱：ymh0000123@outlook.com</p>
+      <title>联系</title>
+      <link>https://ymh0000123.github.io/dochub/Contact.html</link>
+      <guid>https://ymh0000123.github.io/dochub/Contact.html</guid>
+      <source url="https://ymh0000123.github.io/dochub/rss.xml">联系</source>
+      <content:encoded><![CDATA[<h1> 联系</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -25,12 +23,13 @@
       <link>https://ymh0000123.github.io/dochub/course/</link>
       <guid>https://ymh0000123.github.io/dochub/course/</guid>
       <source url="https://ymh0000123.github.io/dochub/rss.xml">目录</source>
-      <description>1. FRP对比 (./list/1-FRP-comparison/) 2. 使用GitHub Pages免费搭建自己的网站 (./list/2-GitHub-Pages/) 3. [持续更新 2023/11/2]金山文档自动获取哔哩哔哩粉丝 (./list/3-bi-li-bi-li-fen-si/) 1. 需要解锁的内容 (./Needs-to-b...</description>
+      <description>1. FRP对比 (./list/1-FRP-comparison/) 2. 使用GitHub Pages免费搭建自己的网站 (./list/2-GitHub-Pages/) 3. [持续更新 2023/11/2]金山文档自动获取哔哩哔哩粉丝 (./list/3-bi-li-bi-li-fen-si/) 4. 原神好句API (./list/5-Gen...</description>
       <content:encoded><![CDATA[<h1> 目录</h1>
 <ol>
 <li><a href="/dochub/course/list/1-FRP-comparison/" target="blank">FRP对比</a></li>
 <li><a href="/dochub/course/list/2-GitHub-Pages/" target="blank">使用GitHub Pages免费搭建自己的网站</a></li>
-<li><a href="/dochub/course/list/3-bi-li-bi-li-fen-si/" target="blank"> [持续更新 2023/11/2]金山文档自动获取哔哩哔哩粉丝</a></li>
+<li><a href="/dochub/course/list/3-bi-li-bi-li-fen-si/" target="blank"> </a></li>
+<li><a href="/dochub/course/list/5-Genshin-Good-words/" target="blank">原神好句API</a></li>
 </ol>
 <h1> 其他</h1>
 <ol>
@@ -153,6 +152,22 @@
 <li>下载后，双击安装包</li>
 <li>选择安装路径，默认即可</li>
 </ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>原神好句API</title>
+      <link>https://ymh0000123.github.io/dochub/course/list/5-Genshin-Good-words.html</link>
+      <guid>https://ymh0000123.github.io/dochub/course/list/5-Genshin-Good-words.html</guid>
+      <source url="https://ymh0000123.github.io/dochub/rss.xml">原神好句API</source>
+      <description>通过JS调用 html代码 ```html ``` ::: tabs tab:active 通过unpkg调用 js代码 ```js //原神好句api by没用的小废鼠 fetch(&amp;apos;https://unpkg.com/genshin-good-words/Good-words.txt&amp;apos;) .then(response =&amp;gt; response.tex...</description>
+      <content:encoded><![CDATA[<h1> 原神好句API</h1>
+<h2> 通过JS调用</h2>
+<h3> html代码</h3>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
+<h2> cdn引入</h2>
+<h3> html代码</h3>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>
+<h2> demo</h2>
 ]]></content:encoded>
     </item>
   </channel>
