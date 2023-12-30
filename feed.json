@@ -11,7 +11,7 @@
       "url": "https://ymh0000123.github.io/dochub/Contact.html",
       "id": "https://ymh0000123.github.io/dochub/Contact.html",
       "content_html": "<h1> 联系</h1>\n",
-      "date_modified": "2023-12-30T13:22:00.045Z",
+      "date_modified": "2023-12-30T13:31:56.238Z",
       "authors": [],
       "tags": []
     },
@@ -21,7 +21,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/",
       "summary": "1. FRP对比 (./list/1-FRP-comparison/) 2. 使用GitHub Pages免费搭建自己的网站 (./list/2-GitHub-Pages/) 3. [持续更新 2023/11/2]金山文档自动获取哔哩哔哩粉丝 (./list/3-bi-li-bi-li-fen-si/) 4. 原神好句API (./list/5-Gen...",
       "content_html": "<h1> 目录</h1>\n<ol>\n<li><a href=\"/dochub/course/list/1-FRP-comparison/\" target=\"blank\">FRP对比</a></li>\n<li><a href=\"/dochub/course/list/2-GitHub-Pages/\" target=\"blank\">使用GitHub Pages免费搭建自己的网站</a></li>\n<li><a href=\"/dochub/course/list/3-bi-li-bi-li-fen-si/\" target=\"blank\"> </a></li>\n<li><a href=\"/dochub/course/list/5-Genshin-Good-words/\" target=\"blank\">原神好句API</a></li>\n</ol>\n<h1> 其他</h1>\n<ol>\n<li><a href=\"/dochub/course/Needs-to-be-unlocked/\" target=\"blank\">需要解锁的内容</a></li>\n</ol>\n",
-      "date_modified": "2023-12-30T13:22:00.049Z",
+      "date_modified": "2023-12-30T13:31:56.243Z",
       "authors": [],
       "tags": []
     },
@@ -31,7 +31,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/list/1-FRP-comparison.html",
       "summary": "名称 流量 带宽 隧道数量 是否实名认证 :-------: :-----------------------------: :----------------------: :------: :----------- LoCyanFrp 签到可获得 ?Gib 流量 最大带宽为节点分配的带宽 不限 是 OpenFrp 签到可获得 1024 - 4096...",
       "content_html": "<!--\n $ @Date: 2023-10-27 20:45:20\n $ @LastEditors: Please set LastEditors\n $ @LastEditTime: 2023-10-27 21:19:09\n $ @FilePath: \\undefinedd:\\VuePress\\3\\dochub\\docs\\course\\list\\1-FRP-comparison.md\n-->\n<h1> FRP对比</h1>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">名称</th>\n<th style=\"text-align:center\">流量</th>\n<th style=\"text-align:center\">带宽</th>\n<th style=\"text-align:center\">隧道数量</th>\n<th style=\"text-align:left\">是否实名认证</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">LoCyanFrp</td>\n<td style=\"text-align:center\">签到可获得 ?Gib 流量</td>\n<td style=\"text-align:center\">最大带宽为节点分配的带宽</td>\n<td style=\"text-align:center\">不限</td>\n<td style=\"text-align:left\">是</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">OpenFrp</td>\n<td style=\"text-align:center\">签到可获得 1024 - 4096 Mib 流量</td>\n<td style=\"text-align:center\">免费只有12 Mbps上行/下行</td>\n<td style=\"text-align:center\">4个</td>\n<td style=\"text-align:left\">是</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">ME Frp</td>\n<td style=\"text-align:center\">签到获得？GB 流量</td>\n<td style=\"text-align:center\">实名认证之后30Mbps</td>\n<td style=\"text-align:center\">？个</td>\n<td style=\"text-align:left\">是&amp;否</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">花生壳</td>\n<td style=\"text-align:center\">每一个月只有1GB流量</td>\n<td style=\"text-align:center\">免费只有 1 mbps</td>\n<td style=\"text-align:center\">2个</td>\n<td style=\"text-align:left\">是</td>\n</tr>\n</tbody>\n</table>\n",
-      "date_modified": "2023-12-30T13:22:00.054Z",
+      "date_modified": "2023-12-30T13:31:56.248Z",
       "authors": [],
       "tags": []
     },
@@ -41,7 +41,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/list/2-GitHub-Pages.html",
       "summary": "视频教程 准备工作 1. 一个GitHub账号 创建仓库 点击 这里 (https://github.com/new) 跳转到创建仓库界面 仓库名称为 .github.io并且设置为公开仓库\r 注意： 替换为你的GitHub用户名，只有把你的仓库命名为.github.io 才能得到.github.io 这个域名 创建网站 创建一个名称为 index.h...",
       "content_html": "<h1> 使用GitHub Pages免费搭建自己的网站</h1>\n<h2> 视频教程</h2>\n",
-      "date_modified": "2023-12-30T13:22:00.059Z",
+      "date_modified": "2023-12-30T13:31:56.253Z",
       "authors": [],
       "tags": []
     },
@@ -51,7 +51,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/list/3-bi-li-bi-li-fen-si.html",
       "summary": "1. 一个金山文档账号 1. 打开金山文档 (https://www.kdocs.cn/)官网 登录之后点击左上角的【新建】 选择【Office文档】-> 【表格】 2. 选择【空白表格】 进入表格界面点击【效率】->【高级开发】->【AirScipt脚本编辑器】 打开【AirScipt脚本编辑器】之后点击【创建脚本】->【文档共享脚本】 3. 复制以...",
       "content_html": "<h1> [持续更新 2023/11/2]金山文档自动获取哔哩哔哩粉丝</h1>\n<h1> 准备工作</h1>\n<ol>\n<li>一个金山文档账号</li>\n</ol>\n<h1> 开始</h1>\n<ol>\n<li>打开<a href=\"https://www.kdocs.cn/\" target=\"_blank\" rel=\"noopener noreferrer\">金山文档</a>官网\n登录之后点击左上角的【新建】\n选择【Office文档】-&gt; 【表格】\n<img src=\"https://slink.ltd/raw.githubusercontent.com/ymh0000123/tu/main/1.png\"></li>\n<li>选择【空白表格】\n进入表格界面点击【效率】-&gt;【高级开发】-&gt;【AirScipt脚本编辑器】\n打开【AirScipt脚本编辑器】之后点击【创建脚本】-&gt;【文档共享脚本】\n<img src=\"https://slink.ltd/raw.githubusercontent.com/ymh0000123/tu/main/2.png\"></li>\n<li>复制以下代码</li>\n</ol>\n<div class=\"language-JavaScrip line-numbers-mode\" data-ext=\"JavaScrip\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><ol start=\"5\">\n<li>再按照<a href=\"https://kdocs.cn/l/cshyjZHnMGFo\" target=\"_blank\" rel=\"noopener noreferrer\">模板</a>填入信息</li>\n</ol>\n<p>如果你有定时获取的需求可以在【效率】-&gt;【高级开发】-&gt;【定时任务】里设置</p>\n",
-      "date_modified": "2023-12-30T13:22:00.065Z",
+      "date_modified": "2023-12-30T13:31:56.259Z",
       "authors": [],
       "tags": []
     },
@@ -61,7 +61,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/list/4-WinRar.html",
       "summary": "链接 rarlab (https://www.rarlab.com/) win-rar(所有版本) (https://www.win-rar.com/download.html) 下载WinRar 1. 点击上面链接 2. 选择繁体中文的版本 安装WinRar 1. 下载后，双击安装包 2. 选择安装路径，默认即可",
       "content_html": "<h1> 如何下载没有广告的WinRar</h1>\n<h2> 链接</h2>\n<p><a href=\"https://www.rarlab.com/\" target=\"_blank\" rel=\"noopener noreferrer\">rarlab</a></p>\n<p><a href=\"https://www.win-rar.com/download.html\" target=\"_blank\" rel=\"noopener noreferrer\">win-rar(所有版本)</a></p>\n<h2> 下载WinRar</h2>\n<ol>\n<li>点击上面链接</li>\n<li>选择<code>繁体中文</code>的版本</li>\n</ol>\n<h2> 安装WinRar</h2>\n<ol>\n<li>下载后，双击安装包</li>\n<li>选择安装路径，默认即可</li>\n</ol>\n",
-      "date_modified": "2023-12-30T13:22:00.067Z",
+      "date_modified": "2023-12-30T13:31:56.261Z",
       "authors": [],
       "tags": []
     },
@@ -71,7 +71,7 @@
       "id": "https://ymh0000123.github.io/dochub/course/list/5-Genshin-Good-words.html",
       "summary": "通过JS调用 html代码 ```html ``` ::: tabs tab:active 通过unpkg调用 js代码 ```js //原神好句api by没用的小废鼠 fetch('https://unpkg.com/genshin-good-words/Good-words.txt') .then(response => response.tex...",
       "content_html": "<h1> 原神好句API</h1>\n<h2> 通过JS调用</h2>\n<h3> html代码</h3>\n<div class=\"language-html line-numbers-mode\" data-ext=\"html\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div>\n<h2> cdn引入</h2>\n<h3> html代码</h3>\n<div class=\"language-html line-numbers-mode\" data-ext=\"html\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div>\n<h2> demo</h2>\n",
-      "date_modified": "2023-12-30T13:22:00.076Z",
+      "date_modified": "2023-12-30T13:31:56.271Z",
       "authors": [],
       "tags": []
     }
