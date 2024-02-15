@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>图片加载测试</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            /* 左侧内边距 */
+            padding-right: 20px;
+            /* 右侧内边距 */
+        }
+
+        .content-box {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            margin-top: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-box">
+        <h1>图片加载测试</h1>
+    </div>
+    <div id="content1" class="content-box"></div>
+    <div id="content2" class="content-box"></div>
+    <p class="content-box">图床由<iconify-icon icon="logos:cloudflare-icon"></iconify-icon>Cloudflare Pages强力驱动</p>
+
+    <script>
+        function displayContent(element, content, loadingTime) {
+            var lines = content.split('\n');
+            var currentLine = 0;
+
+            function showNextLine() {
+                if (currentLine < lines.length) {
+                    element.innerHTML += lines[currentLine] + '<br>';
+                    currentLine++;
+                }
+            }
+
+            // 使用定时器每隔一秒显示一行
+            var intervalId = setInterval(showNextLine, 1000);
+
+            // 当全部内容显示完毕后清除定时器
+            setTimeout(function () {
+                clearInterval(intervalId);
+                element.innerHTML += '<p>加载时间：' + loadingTime + ' 毫秒</p>';
+            }, lines.length * 1000);
+        }
+
+        // 使用JavaScript获取文件内容，并记录加载时间
+        function fetchContent(url, contentDiv) {
+            var startTime = new Date().getTime(); // 记录开始时间
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    var endTime = new Date().getTime(); // 记录结束时间
+                    var loadingTime = endTime - startTime; // 计算加载时间
+                    if (xhr.status === 200) {
+                        var content = xhr.responseText;
+                        displayContent(contentDiv, content, loadingTime);
+                    } else {
+                        contentDiv.textContent = '无法加载图床文件。';
+                    }
+                }
+            };
+            xhr.send();
+        }
+
+        // 使用JavaScript获取第一个文件内容
+        var url1 = 'https://xiaofeishu-picture.pages.dev/picture-test.txt';
+        var contentDiv1 = document.getElementById('content1');
+        fetchContent(url1, contentDiv1);
+
+        // 使用JavaScript获取第二个文件内容
+        var url2 = 'https://dochub-picture.pages.dev/dochub-picture-test.txt';
+        var contentDiv2 = document.getElementById('content2');
+        fetchContent(url2, contentDiv2);
+    </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
