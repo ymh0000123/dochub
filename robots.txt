@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://ymh0000123.github.io/dochub/sitemap.xml
